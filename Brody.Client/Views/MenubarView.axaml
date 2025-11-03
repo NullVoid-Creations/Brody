@@ -1,0 +1,207 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 mc:Ignorable="d" d:DesignWidth="320" d:DesignHeight="240"
+			 x:Class="Brody.Client.Views.MenubarView">
+	<Menu>
+		<MenuItem Header="File">
+			<MenuItem Header="Connect Object Explorer...">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Connect_grey_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Disconnect Object Explorer">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Disconnect_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="New" />
+			<MenuItem Header="Open" />
+			<Separator />
+			<MenuItem Header="Close" />
+			<MenuItem Header="Close Project">
+				<MenuItem.Icon>
+					<Image Source="/Assets/ProjectLoadVeto_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Save Selected Items">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Save_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Save Selected Items As...">
+				<MenuItem.Icon>
+					<Image Source="/Assets/SaveAs_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Save All" >
+				<MenuItem.Icon>
+					<Image Source="/Assets/SaveAll_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Page Setup...">
+				<MenuItem.Icon>
+					<Image Source="/Assets/PrintSetup_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Print...">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Print_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Exit" />
+		</MenuItem>
+
+		<MenuItem Header="Edit">
+			<MenuItem Header="Go To" />
+			<MenuItem Header="Find and Replace" />
+			<Separator />
+			<MenuItem Header="Undo">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Undo_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Redo">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Redo_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Cut">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Cut_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Copy">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Copy_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Paste">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Paste_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Duplicate">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Copy_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Delete">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Cancel_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Select All">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Select_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+		</MenuItem>
+
+		<MenuItem Header="View">
+			<MenuItem Header="Object Explorer">
+				<MenuItem.Icon>
+					<Image Source="/Assets/SQLServerObjectExplorer_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Properties Window">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Property_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Toolbars"/>
+			<Separator />
+			<MenuItem Header="Refresh">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Refresh_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+		</MenuItem>
+
+		<MenuItem Header="Tools">
+			<MenuItem Header="Options...">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Settings_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+		</MenuItem>
+
+
+		<MenuItem Header="Window">
+			<MenuItem Header="New Window">
+				<MenuItem.Icon>
+					<Image Source="/Assets/NewToolWindow_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Split">
+				<MenuItem.Icon>
+					<Image Source="/Assets/ArtboardSplit_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Float" />
+			<MenuItem Header="Dock" />
+			<MenuItem Header="Dock as Tabbed Document" />
+			<MenuItem Header="Auto Hide" />
+			<MenuItem Header="Close">
+				<MenuItem.Icon>
+					<Image Source="/Assets/Close_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Pin Tab">
+				<MenuItem.Icon>
+					<Image Source="/Assets/PinnedItem_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<Separator />
+			<MenuItem Header="Save Window Layout" />
+			<MenuItem Header="Apply Window Layout" />
+			<MenuItem Header="Manage Window Layouts..." />
+			<MenuItem Header="Reset Window Layout" />
+			<Separator />
+			<MenuItem Header="Auto Hide All" />
+			<MenuItem Header="Close All Tabs">
+				<MenuItem.Icon>
+					<Image Source="/Assets/CloseGroup_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Close Document Tabs">
+				<MenuItem.Icon>
+					<Image Source="/Assets/CloseGroup_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Restore Closed Tab" />
+			<Separator />
+			<MenuItem Header="Windows..." />
+		</MenuItem>
+
+		<MenuItem Header="Help">
+			<MenuItem Header="View Help">
+				<MenuItem.Icon>
+					<Image Source="/Assets/StatusHelp_16x.png" Width="16" Height="16" />
+				</MenuItem.Icon>
+			</MenuItem>
+			<MenuItem Header="Getting Started" />
+			<MenuItem Header="Tips and Tricks" />
+			<Separator />
+			<MenuItem Header="Send Feedback" />
+			<Separator />
+			<MenuItem Header="Check for Updates" />
+			<MenuItem Header="Release Notes" />
+			<MenuItem Header="Roadmap" />
+			<Separator />
+			<MenuItem Header="Privacy Statement" />
+			<Separator />
+			<MenuItem Header="About..." />
+		</MenuItem>
+	</Menu>
+</UserControl>
