@@ -1,0 +1,24 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:ca="using:Classic.CommonControls"
+			 d:DesignWidth="640"
+			 mc:Ignorable="d"
+			 x:Class="Brody.Client.Views.StandardToolbarView">
+	<ClassicBorderDecorator BorderStyle="ThinRaised" BorderThickness="1">
+		<ca:ToolBar Size="Small" TextPlacement="NoText">
+			<ca:RebarHandle />
+			<ca:ToolBarButton ToolTip.Tip="Connect Object Explorer..." SmallIcon="/Assets/Connect_grey_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Disconnect Object Explorer" SmallIcon="/Assets/Disconnect_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Close Project" SmallIcon="/Assets/ProjectLoadVeto_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Save Selected Items" SmallIcon="/Assets/Save_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Save Selected Items As..." SmallIcon="/Assets/SaveAs_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Save All" SmallIcon="/Assets/SaveAll_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Print..." SmallIcon="/Assets/Print_16x.png"/>
+		</ca:ToolBar>
+	</ClassicBorderDecorator>
+</UserControl>
