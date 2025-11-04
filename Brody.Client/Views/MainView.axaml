@@ -22,6 +22,5 @@
 		<v:WindowToolbarView DockPanel.Dock="Top"/>
 		<v:StatusbarView DockPanel.Dock="Bottom" />
 		<TextBox />
-		
 	</DockPanel>
 </UserControl>

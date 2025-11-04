@@ -6,6 +6,11 @@
 			 mc:Ignorable="d" d:DesignWidth="320" d:DesignHeight="21"
 			 x:Class="Brody.Client.Views.StatusbarView">
 	<ca:StatusBar>
+		<ca:StatusBar.Styles>
+			<Style Selector="ca|StatusBarItem">
+				<Setter Property="Foreground" Value="{StaticResource ThemeForegroundBrush}" />
+			</Style>
+		</ca:StatusBar.Styles>
 		<ca:StatusBarItem ca:StatusBar.Size="*">
 			Ready
 		</ca:StatusBarItem>
