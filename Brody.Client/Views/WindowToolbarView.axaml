@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ca="using:Classic.CommonControls"
+             mc:Ignorable="d" d:DesignWidth="320"
+             x:Class="Brody.Client.Views.WindowToolbarView">
+  <ClassicBorderDecorator BorderStyle="ThinRaised" BorderThickness="1">
+		<ca:ToolBar Size="Small" TextPlacement="NoText">
+			<ca:RebarHandle />
+			<ca:ToolBarButton ToolTip.Tip="New Window" SmallIcon="/Assets/NewToolWindow_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Split" SmallIcon="/Assets/ArtboardSplit_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Pin Tab" SmallIcon="/Assets/PinnedItem_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Close" SmallIcon="/Assets/Close_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Close All Tabs" SmallIcon="/Assets/CloseGroup_16x.png"/>
+		</ca:ToolBar>
+	</ClassicBorderDecorator>
+</UserControl>

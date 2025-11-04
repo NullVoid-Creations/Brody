@@ -17,6 +17,11 @@
 	<DockPanel>
 		<v:MenubarView DockPanel.Dock="Top"/>
 		<v:StandardToolbarView DockPanel.Dock="Top"/>
+		<v:EditToolbarView DockPanel.Dock="Top"/>
+		<v:ViewToolbarView DockPanel.Dock="Top"/>
+		<v:WindowToolbarView DockPanel.Dock="Top"/>
+		<v:StatusbarView DockPanel.Dock="Bottom" />
 		<TextBox />
+		
 	</DockPanel>
 </UserControl>

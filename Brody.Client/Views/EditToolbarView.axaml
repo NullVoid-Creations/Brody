@@ -1,0 +1,27 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:ca="using:Classic.CommonControls"
+             mc:Ignorable="d" d:DesignWidth="320"
+             x:Class="Brody.Client.Views.EditToolbarView">
+  <ClassicBorderDecorator BorderStyle="ThinRaised" BorderThickness="1">
+		<ca:ToolBar Size="Small" TextPlacement="NoText">
+			<ca:RebarHandle />
+			<ca:ToolBarButton ToolTip.Tip="Quick Find" SmallIcon="/Assets/QuickFind_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Quick Replace" SmallIcon="/Assets/QuickReplace_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Find in Files" SmallIcon="/Assets/FindinFiles_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Replace in Files" SmallIcon="/Assets/ReplaceInFiles_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Undo" SmallIcon="/Assets/Undo_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Redo" SmallIcon="/Assets/Redo_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Cut" SmallIcon="/Assets/Cut_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Copy" SmallIcon="/Assets/Copy_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Paste" SmallIcon="/Assets/Paste_16x.png"/>
+			<ca:ToolBarButton ToolTip.Tip="Delete" SmallIcon="/Assets/Cancel_16x.png"/>
+			<Separator />
+			<ca:ToolBarButton ToolTip.Tip="Select All" SmallIcon="/Assets/Select_16x.png"/>
+		</ca:ToolBar>
+	</ClassicBorderDecorator>
+</UserControl>
