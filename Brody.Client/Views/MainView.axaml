@@ -22,10 +22,10 @@
 		<v:WindowToolbarView DockPanel.Dock="Top"/>
 		<v:StatusbarView DockPanel.Dock="Bottom" />
 		<DockControl>
-			<RootDock>
+			<!--<RootDock>
 				<DocumentDock></DocumentDock>
 				<ToolDock></ToolDock>
-			</RootDock>
+			</RootDock>-->
 		</DockControl>
 	</DockPanel>
 </UserControl>
