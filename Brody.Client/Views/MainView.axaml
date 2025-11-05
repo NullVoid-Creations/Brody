@@ -21,6 +21,11 @@
 		<v:ViewToolbarView DockPanel.Dock="Top"/>
 		<v:WindowToolbarView DockPanel.Dock="Top"/>
 		<v:StatusbarView DockPanel.Dock="Bottom" />
-		<TextBox />
+		<DockControl>
+			<RootDock>
+				<DocumentDock></DocumentDock>
+				<ToolDock></ToolDock>
+			</RootDock>
+		</DockControl>
 	</DockPanel>
 </UserControl>

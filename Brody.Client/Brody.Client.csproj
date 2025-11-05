@@ -15,7 +15,11 @@
     <PackageReference Include="Avalonia.Fonts.Inter" Version="$(AvaloniaVersion)" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
-    <PackageReference Include="Classic.Avalonia.Theme" Version="11.3.0.1" />
+    <PackageReference Include="Classic.Avalonia.Theme" Version="$(ClassicAvaloniaVersion)" />
+    <PackageReference Include="Classic.Avalonia.Theme.Dock" Version="$(ClassicAvaloniaVersion)" />
+    <PackageReference Include="Dock.Avalonia" Version="$(DockVersion)" />
+    <PackageReference Include="Dock.Model" Version="$(DockVersion)" />
+    <PackageReference Include="Dock.Model.Avalonia" Version="$(DockVersion)" />
     <PackageReference Include="ReactiveUI.Avalonia" Version="$(AvaloniaVersion)" />
   </ItemGroup>
 </Project>

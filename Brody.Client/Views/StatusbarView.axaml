@@ -12,7 +12,7 @@
 			</Style>
 		</ca:StatusBar.Styles>
 		<ca:StatusBarItem ca:StatusBar.Size="*">
-			Ready
+			<TextBlock Text="Ready"/>
 		</ca:StatusBarItem>
 	</ca:StatusBar>
 </UserControl>
